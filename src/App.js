@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Dicsover from './Components/Discover/Discover';
+import Header from './Components/Header/Header';
+import HotTours from './Components/HotTours/HotTours';
+import Services from './Components/Services/Services';
+import TopPage from './Components/TopPageImages/TopPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <TopPage />
+      <Dicsover />
+      <Services />
+      <HotTours />
     </div>
   );
 }
-
 export default App;

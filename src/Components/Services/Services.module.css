@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+.icon{
+    margin-left: 50%;
+    font-size: 50px;
+    color: rgb(5, 128, 128);
+}
+h3{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+
+}
+section{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.serv{
+    margin-top: 150px;
+}
+.roww{
+    margin-top: 50px;
+}
