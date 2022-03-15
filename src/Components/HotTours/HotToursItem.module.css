@@ -34,4 +34,19 @@ section{
     margin-top: 30px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
 }
+@media only screen and (max-width: 500px) {
+    .tour{
+        width:100%
+    }
+    .imgg{
+        width: 100%;
+    }
+    h3,section, .hh2{
+        margin-left: 10px;
+    }
+    .buttonn{
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
+}
 

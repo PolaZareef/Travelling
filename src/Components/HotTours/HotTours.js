@@ -24,7 +24,7 @@ const HotTours =()=>{
         />
     ));
     return (
-        <div className={`${classes.tours}`}>
+        <div className={`${classes.tours}`} id='hot'>
             <h1>Hot Tours</h1>
             <div className={`container`}>
                 {HotToursmenu}

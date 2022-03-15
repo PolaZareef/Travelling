@@ -23,3 +23,11 @@ section{
 .roww{
     margin-top: 50px;
 }
+@media only screen and (max-width: 500px) {
+    h1 {
+        padding-left: 30px;
+    }
+    .coll{
+        margin-top: 20px;
+    }
+}

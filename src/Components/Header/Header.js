@@ -13,10 +13,10 @@ const Header =()=>{
                             <a className={`nav-link  ${classes.item}`} href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a className={`nav-link ${classes.item}`} href="#home">About</a>
+                            <a className={`nav-link ${classes.item}`} href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a className={`nav-link ${classes.item}`} href="#home">Contact</a>
+                            <a className={`nav-link ${classes.item}`} href="#hot">Hot Tours</a>
                         </li>    
                     </ul>
                 </div>  

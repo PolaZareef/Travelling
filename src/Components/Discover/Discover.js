@@ -26,7 +26,7 @@ const Dicsover =()=>{
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src={imag} alt="Discover Image" />
+                        <img src={imag} alt="Discover Image" className={classes.imgg}/>
                     </div>
                     <div className={`col-sm-6 ${classes.secCol}`}>
                         <h2>Discover New Horizons</h2>
