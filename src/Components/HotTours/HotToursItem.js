@@ -12,7 +12,7 @@ const TourItems =(props)=>{
                     <div  className={`col-sm-6`}>
                         <div>
                             <h2 className={classes.hh2}>{props.city}</h2>
-                            <h3>${props.price}</h3>
+                            <h3 className={classes.hh3}>${props.price}</h3>
                         </div>
                         <section>{props.parag}</section>
                         <button className={classes.buttonn}>Buy This Tour</button>
