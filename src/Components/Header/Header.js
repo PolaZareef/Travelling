@@ -17,6 +17,9 @@ const Header =()=>{
                         </li>
                         <li class="nav-item">
                             <a className={`nav-link ${classes.item}`} href="#hot">Hot Tours</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a className={`nav-link ${classes.item}`} href="#workers">Our Workers</a>
                         </li>    
                     </ul>
                 </div>  

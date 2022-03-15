@@ -7,7 +7,7 @@ const TourItems =(props)=>{
             <div className={`container`}>
                 <div className={`row ${classes.roww}`}>
                     <div className={`col-sm-6`}>
-                        <img src={Firimg} alt="First hot Tour Image" className={classes.imgg}></img>
+                        <img src={Secimgg} alt="First hot Tour Image" className={classes.imgg}></img>
                     </div>
                     <div  className={`col-sm-6`}>
                         <div>
