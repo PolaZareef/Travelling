@@ -7,12 +7,12 @@ const TourItems =(props)=>{
             <div className={`container`}>
                 <div className={`row ${classes.roww}`}>
                     <div className={`col-sm-6`}>
-                        <img src={Firimg} alt="First hot Tour Image" className={classes.imgg}></img>
+                        <img src={Secimgg} alt="First hot Tour Image" className={classes.imgg}></img>
                     </div>
                     <div  className={`col-sm-6`}>
                         <div>
                             <h2 className={classes.hh2}>{props.city}</h2>
-                            <h3>${props.price}</h3>
+                            <h3 className={classes.hh3}>${props.price}</h3>
                         </div>
                         <section>{props.parag}</section>
                         <button className={classes.buttonn}>Buy This Tour</button>

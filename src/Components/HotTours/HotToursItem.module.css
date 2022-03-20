@@ -1,4 +1,4 @@
-h3{
+.hh3{
     text-align: center;
     margin-left: 20%;
     color: rgb(5, 128, 128);
@@ -41,9 +41,11 @@ section{
     .imgg{
         width: 100%;
     }
-    h3,section, .hh2{
+    .hh3,section, .hh2{
         margin-left: 10px;
     }
+    
+    
     .buttonn{
         margin-left: 80px;
         margin-bottom: 10px;
