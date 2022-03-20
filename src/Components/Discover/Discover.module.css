@@ -1,0 +1,55 @@
+.disc{
+    margin-top: 100px;
+}
+h2{
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+}
+.links{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.item{
+    font-weight: bold;
+    font-size: large;
+    color: rgb(109, 107, 107);
+}
+.item:hover{
+    color: aquamarine;
+}
+.secCol{
+    margin-top: 50px;
+}
+.parag{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: larger;
+}
+@media only screen and (max-width: 500px) {
+    .parag {
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .item{
+        text-align: center;
+    }
+    .links{
+        text-align: center;
+    }
+    .imgg{
+        width: 100%;
+    }
+    .secCol{
+        width: 90%;
+
+    }
+    hr{
+        width: 100%;
+        margin-left: 30px;
+    }
+}
