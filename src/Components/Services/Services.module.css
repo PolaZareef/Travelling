@@ -2,7 +2,7 @@ h1{
     text-align: center;
 }
 .icon{
-    margin-left: 50%;
+    margin-left: 45%;
     font-size: 50px;
     color: rgb(5, 128, 128);
 }
@@ -29,5 +29,8 @@ section{
     }
     .coll{
         margin-top: 20px;
+    }
+    .icon{
+        width: 10px;
     }
 }

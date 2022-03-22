@@ -1,17 +1,21 @@
 import classes from './HotTours.module.css';
 import TourItems from './HotToursItem';
+import Slide from 'react-reveal/Slide';
+
+/*import SecImg from './firsttour.jpg';
+import Secimgg from './sectour.jpg';*/
 const DUMMY_TOURS=[
     {
         id:'T1',
         city:'Spain, Benidorm',
         price:790,
-        parag:'Benidorm is a buzzing resort with a big reputation for beach holidays. Situated in sunny Costa Blanca, the town is one of the original Spanish beach resorts...'
+        parag:'Benidorm is a buzzing resort with a big reputation for beach holidays. Situated in sunny Costa Blanca, the town is one of the original Spanish beach resorts...',
     },
     {
         id:'T2',
         city:'Mauritius Island, Africa',
         price:890,
-        parag:'The beautiful and inviting island nation of Mauritius is an ideal ‘flop and drop’ at the conclusion of your safari. Indulge in the delightful scents of the fragrant...'
+        parag:'The beautiful and inviting island nation of Mauritius is an ideal ‘flop and drop’ at the conclusion of your safari. Indulge in the delightful scents of the fragrant...',
     }
 ];
 const HotTours =()=>{
@@ -24,12 +28,16 @@ const HotTours =()=>{
         />
     ));
     return (
+        <Slide left>
+
         <div className={`${classes.tours}`} id='hot'>
             <h1>Hot Tours</h1>
             <div className={`container`}>
                 {HotToursmenu}
             </div>
         </div>
+        </Slide>
+
     )
 };
 export default HotTours;

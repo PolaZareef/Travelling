@@ -1,8 +1,11 @@
 import classes from './Services.module.css';
+import Slide from 'react-reveal/Slide';
+
 const Services =()=>{
     return (
         <div className={`container ${classes.serv}`} id='services'>
             <h1>Our Services</h1>
+            <Slide bottom>
             <div className={`row ${classes.roww}`}>
                 <div className={`col-sm-4 ${classes.coll}`}>
                     <i class={`material-icons ${classes.icon}`}>&#xe01d;</i>
@@ -20,6 +23,8 @@ const Services =()=>{
                     <section>Our tour managers are qualified, skilled, and friendly to bring you the best service.</section>
                 </div>
             </div>
+            </Slide>
+            <Slide bottom>
             <div className={`row ${classes.roww}`}>
                 <div className={`col-sm-4 ${classes.coll}`}>
                 <i class={`fas ${classes.icon}`}>&#xf590;</i>
@@ -37,6 +42,7 @@ const Services =()=>{
                     <section>If you find tours that are cheaper than ours, we will compensate the difference.</section>
                 </div>
             </div>
+            </Slide>
         </div>
     )
 };

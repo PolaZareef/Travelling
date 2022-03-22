@@ -1,6 +1,8 @@
 import classes from './Discover.module.css';
 import imag from './index-3-556x382.jpg';
 import React,{useState} from 'react';
+import Fade from 'react-reveal/Fade';
+
 const Dicsover =()=>{
     const [FirstParag,setFirstParag]=useState(true);
     const [SecParag,setSecParag]=useState(false);
@@ -25,9 +27,12 @@ const Dicsover =()=>{
         <div className={classes.disc}>
             <div class="container">
                 <div class="row">
+                <Fade bottom>
                     <div class="col-sm-6">
                         <img src={imag} alt="Discover Image" className={classes.imgg}/>
                     </div>
+                    </Fade>
+                    <Fade right>
                     <div className={`col-sm-6 ${classes.secCol}`}>
                         <h2>Discover New Horizons</h2>
                         <div className={`row ${classes.links}`}>
@@ -52,6 +57,7 @@ const Dicsover =()=>{
                             Our mission is to provide the ultimate travel planning experience while becoming a one-stop shop for every travel service available in the industry.
                         </div>}
                     </div>
+                    </Fade>
                 </div>
 
             </div>
