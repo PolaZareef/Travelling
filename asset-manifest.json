@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Travelling/static/css/main.577933f8.css",
-    "main.js": "/Travelling/static/js/main.f5d485e7.js",
+    "main.css": "/Travelling/static/css/main.9b04119a.css",
+    "main.js": "/Travelling/static/js/main.59ffbfd7.js",
     "static/js/787.f0bcee6c.chunk.js": "/Travelling/static/js/787.f0bcee6c.chunk.js",
     "static/media/parallax-1-1920x850.jpg": "/Travelling/static/media/parallax-1-1920x850.d117664776570e445c93.jpg",
     "static/media/parallax-2-1920x850.jpg": "/Travelling/static/media/parallax-2-1920x850.b59078d9094b16c4c2c9.jpg",
@@ -17,12 +17,12 @@
     "static/media/1.jpg": "/Travelling/static/media/1.6bbfe59fc8e11c00b9eb.jpg",
     "static/media/5.jpg": "/Travelling/static/media/5.1428e1e71232839d4cdf.jpg",
     "index.html": "/Travelling/index.html",
-    "main.577933f8.css.map": "/Travelling/static/css/main.577933f8.css.map",
-    "main.f5d485e7.js.map": "/Travelling/static/js/main.f5d485e7.js.map",
+    "main.9b04119a.css.map": "/Travelling/static/css/main.9b04119a.css.map",
+    "main.59ffbfd7.js.map": "/Travelling/static/js/main.59ffbfd7.js.map",
     "787.f0bcee6c.chunk.js.map": "/Travelling/static/js/787.f0bcee6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.577933f8.css",
-    "static/js/main.f5d485e7.js"
+    "static/css/main.9b04119a.css",
+    "static/js/main.59ffbfd7.js"
   ]
 }
