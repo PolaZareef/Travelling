@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 const TopPage=()=>{
     return (
         <div id='home' className={classes.Top}>
-            <div id="demo" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <div id="demo" class="carousel slide" data-ride="carousel" data-interval="4000">
             <ul class="carousel-indicators">
                 <li data-target="#demo" data-slide-to="0" class="active"></li>
                 <li data-target="#demo" data-slide-to="1"></li>
