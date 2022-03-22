@@ -39,6 +39,7 @@
     .imaggg{
         width: 95%;
         height: 400px;
+        object-fit:cover;
    }
     .sech2 {
         font-size: 30px;
