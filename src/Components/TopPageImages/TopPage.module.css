@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .h11{
     padding-bottom: 15%;
     padding-right: 30%;
@@ -17,4 +18,25 @@ h1{
     .Top{
         background-size: contain;
     }
+=======
+.h11{
+    padding-bottom: 15%;
+    padding-right: 30%;
+    font-weight: bold;
+    font-family:cursive;
+}
+h1{
+    font-size: 65px;
+}
+@media only screen and (max-width: 500px) {
+    .h11 {
+        padding-bottom: 200px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .Top{
+        background-size: contain;
+    }
+>>>>>>> f588f4874c583f7fef74226b5fc8da7c509c7262
 }

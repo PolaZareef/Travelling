@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .gall{
     margin-top: 250px;
     width: 97%;
@@ -27,4 +28,35 @@
         margin-left: 10%;
         margin-bottom: 20px;
    }
+=======
+.gall{
+    margin-top: 250px;
+    width: 97%;
+    margin-left: 10px;
+}
+.hh1{
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+    .gall{
+        width: 93%;
+        height: 400px;
+   }
+   .imgg{
+        margin-left: 14%;
+        margin-bottom: 20px;
+        width: 300px;
+   }
+}
+@media only screen and (max-width: 400px) {
+    .gall{
+        width: 95%;
+        height: 400px;
+   }
+   .imgg{
+        margin-left: 10%;
+        margin-bottom: 20px;
+   }
+>>>>>>> f588f4874c583f7fef74226b5fc8da7c509c7262
 }
