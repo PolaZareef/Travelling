@@ -1,0 +1,2 @@
+//codeee
+const data;
